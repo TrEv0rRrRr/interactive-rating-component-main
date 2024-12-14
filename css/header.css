@@ -1,0 +1,29 @@
+.container__header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header__figure {
+  background-color: hsl(210, 12%, 25%);
+  display: flex;
+  max-width: min-content;
+  border-radius: 100%;
+  padding: 12px;
+}
+
+.figure__img {
+  min-width: 1rem;
+  max-width: 1rem;
+}
+
+.header__div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header__div-p {
+  color: var(--Light-Grey);
+  line-height: 23px;
+}

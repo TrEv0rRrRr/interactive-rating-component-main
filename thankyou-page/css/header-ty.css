@@ -1,0 +1,29 @@
+.container {
+  padding: 0;
+  gap: 10px;
+  min-width: 20rem;
+  max-width: 22rem;
+}
+
+.container__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 35px 15px;
+  padding-bottom: 0;
+}
+
+.header__figure {
+  background-color: transparent;
+}
+
+.header__div {
+  background-color: hsl(210, 12%, 25%);
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.header__div-p {
+  color: var(--Orange);
+}
